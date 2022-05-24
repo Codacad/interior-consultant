@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+      maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Devchallenges</title>
+
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+
+      ul {
+        padding-left: 24px;
+      }
+
+      li {
+        margin-bottom: 8px;
+      }
+
+      .welcome {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .welcome-text {
+        margin-top: 30vh;
+        font-weight: 500;
+      }
+
+      .welcome-text p {
+        font-size: 1rem;
+        font-weight: 400;
+      }
+
+      .welcome-text h1 {
+        font-size: 1.5rem;
+      }
+
+      .welcome-text a {
+        color: #f7542e;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <a href="#" class="logo">This Interior</a>
+        <ul class="nav-menus">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Collection</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <img src="/icons/hamburger.svg" class="hamburger-menu-open" alt="">
+        <div class="fullscreen-overlay-navigation">
+            <ul class="sub-nav-menus">
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#">Collection</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+      </nav>
+      <div class="interior-showcase">
+        <div class="left-side">
+          <div class="contents">
+              <h1>Modern Interior</h1>
+              <p>A Full-Serviced residential & commercial interior design and staging companry offering professional organizinga & eco-services</p>
+              <a href="#">
+                <span>Read More</span>
+                <img src="/icons/right-arrow.svg" alt="">
+              </a>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="contents">
+              <img src="/photo1.png" alt="">
+              <div class="profile-card">
+                  <div class="pic-and-name">
+                      <img src="/rizwan.jpg" alt="" class="pic">
+                      <div class="name-and-designation">
+                        <h3>Mohd Rizwan</h3>
+                        <span>Web Designer</span>
+                      </div>
+                  </div>
+                  <div class="text">
+                    <p>Designed in May 2022 by Mohd Rizwan</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>
+        Created by <a href="https://morizwan.herokuapp.com/" target="_blank">Mohd Rizwan</a> - <a href="https://devchallenges.io/" target="_blank">devChallenges.io</a> 
+      </p>
+    </div>
+
+    <div class="welcome" style="display: none;">
+      <div class="welcome-text">
+        <h1>
+          Welcome to
+          <a href="https://devchallenges.io/" target="_blank"
+            >devchallenges.io</a
+          >
+        </h1>
+
+        <p>
+          If you have any questions, don't hesitate to ask on Discord. Here are
+          7 general steps to complete the challenge:
+        </p>
+      </div>
+
+      <ul>
+        <li><b>Step 1:</b> Create a new repository on github</li>
+        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
+        <li>
+          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
+        </li>
+        <li><b>Step 4:</b> Complete all user stories</li>
+        <li><b>Step 5:</b> Update README.md</li>
+        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
+        <li>
+          <b>Step 7:</b> Share your solution on Discord, Twitter and other
+          platforms to ask for feedback
+        </li>
+      </ul>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
